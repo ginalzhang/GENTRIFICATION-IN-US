@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gentrification Vs. America Homepage</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Piazzolla:opsz@8..30&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+  <!-- nav bar -->
+  <nav>
+    <ul>
+      <li class="tabs"><a href="index.html">Home</a></li>
+      <li class="tabs"><a href="about.html">About</a></li>
+      <li class="tabs"><a href="https://gentrification-in-oakland.ginalzhang.repl.co/#card-section">Articles</a></li>
+      <li class="tabs"><a href="solution.html">How You Can Help</a></li>
+      <li class="tabs"><a href="introductions.html">Introductions</a></li>
+
+    </ul>
+  </nav>
+
+  <!---Top: Search Bar and Title--->
+  <div class="title">
+    <h1>Gentrification Versus America</h1>
+  </div>
+  <p class="subtitle">In America's house crisis, legislators are welcoming new accommodation expansion, even if it is
+    not completely
+    affordable for citizens. </p>
+  <br>
+
+  <!---Slide Show--->
+  <div class="slideshow-section">
+    <div class="slideshow-container">
+
+      <!---Boston (Before)--->
+      <div class="slides Boston fade">
+        <div class="slidesNumber">1 / 6</div>
+        <img src="https://globalboston.bc.edu/wp-content/uploads/2017/01/132-Marginal-1909-BCA.jpg">
+        <div class="slidesText">East Boston (before gentrification)</div>
+      </div>
+   
+    <!---Boston (After)--->
+    <div class="slides Boston fade">
+      <div class="slidesNumber">2 / 6</div>
+      <img src="https://www.baystatebanner.com/wp-content/uploads/2019/06/East-Boston-2.jpg">
+      <div class="slidesText">East Boston (after gentrification)</div>
+    </div>
+
+    <!---Miami (Before)--->
+    <div class="slides Miami fade">
+      <div class="slidesNumber">3 / 6</div>
+      <img src="http://flashbackmiami.com/wp-content/uploads/2014/06/6-10292012-10000545AA.jpg">
+      <div class="slidesText">A street in Miami in the 1900s.</div>
+    </div>
+
+    <!---Miami (After)--->
+    <div class="slides Miami fade">
+      <div class="slidesNumber">4 / 6</div>
+      <img
+        src="https://i0.wp.com/edgeeffects.net/wp-content/uploads/2019/04/kahauiki_village_featured.jpg?fit=933%2C622&ssl=1">
+      <div class="slidesText">A street in Miami post-gentrification.</div>
+    </div>
+
+    <!---New Orleans (Before)--->
+    <div class="slides New-Orleans fade">
+      <div class="slidesNumber">5 / 6</div>
+      <img src="https://img.huffingtonpost.com/asset/59f1fa39180000360ddfc618.jpeg?ops=scalefit_1280_noupscale">
+      <div class="slidesText">Houses in New Orleans before gentrification.</div>
+    </div>
+    <!---New Orleans (After)--->
+    <div class="slides New-Orleans fade">
+      <div class="slidesNumber">6 / 6</div>
+      <img src="https://media1.ledevoir.com/images_galerie/nwd_733820_573250/image.jpg">
+      <div class="slidesText">Houses in New Orleans post-gentrification.</div>
+    </div>
+ </div>
+    <!---Previous and Next Buttons--->
+    <button class="previous" onclick="goBack()">&#10094;</button>
+    <button class="next" onclick="goForward()">&#10095;</button>
+    <br>
+    <br>
+  </div>
+  <br>
+  <br>
+  <!-- card section here -->
+  <div id="card-section">
+    <br>
+    <br>
+    <h2>Articles</h2>
+    <div class="card-container" id="cardContainer">
+      <a href="harlem.html" class="card" id="harlem">
+        <img class="harlempicture"
+          src="https://pyxis.nymag.com/v1/imgs/ef3/106/0490a14449caa1cfd905d1052368661cdc-10-harlem-corner-lede-1.rhorizontal.w700.jpg">
+        <p class="cardinfo">Harlem, a city once thriving in culture from many diverse ethnicites, now faces the issue of
+          expensive housing and homelessness.
+        </p>
+      </a>
+      <a href="hawaii.html" class="card" id="hawaii">
+        <img class="hawaiipicture"
+          src="https://static01.nyt.com/images/2016/06/03/us/00hawaii-web8/00hawaii-web8-videoSixteenByNineJumbo1600.jpg">
+        <p class="cardinfo">Known for its beautiful coasts, Hawai’i, attracts many tourists, but this makes bigger
+          problems for people native to the island.
+        </p>
+      </a>
+      <a href="oakland.html" class="card" id="oakland">
+        <img class="oaklandpicture" src="https://s.hdnux.com/photos/76/42/53/16394988/12/rawImage.jpg">
+        <p class="cardinfo">The scarcity of affordable housing in Oakland is driving its residents away and
+          overshadowing
+          minorities.
+        </p>
+      </a>
+    </div>
+  </div>
+  <!-- solution section here -->
+  <div class="solution-section">
+    <div class="solution" id="solutions">
+
+      <div>
+        <h1> <a href="https://gentrification-in-oakland.ginalzhang.repl.co/solution.html"> Methods to Save Original
+            Inhabitants From Destruction of Gentrification</a> </h1>
+        <p>Gentrification does not have to push minority citizens out of their residential areas. Campaingers say that
+          there are courses of action to preserving communities. </p>
+
+      </div>
+      <div class="solutionimg">
+        <img src="https://cpaboston.org/sites/default/files/styles/large/public/photos/chendanxin.jpg?itok=9KgKwjyU">
+      </div>
+
+    </div>
+  </div>
+  <!-- <div class="learnMore"> 
+  <a href="mailto:gina.zhang@amethodschools.org”>Reach out to us</a>
+
+
+</div> -->
+  <form id="form">
+    <div class="container">
+      <h2>Subscribe to our Newsletter</h2>
+      <p>Learn more and recieve resources about gentrification!</p>
+    </div>
+
+    <div class="container" style="background-color:white">
+      <input type="text" placeholder="Name" name="name" required>
+      <input type="text" placeholder="Email address" name="mail" required>
+      <label>
+        <input type="checkbox" checked="checked" name="subscribe"> Yearly Newsletter
+      </label>
+    </div>
+
+    <div class="container">
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

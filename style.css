@@ -1,0 +1,304 @@
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Piazzolla', serif;
+
+}
+
+.subtitle { 
+  text-align: center;
+}
+body {
+  margin: 0px;
+  margin-top: 0px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* nav bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  color:white;
+  text-align: right;
+  background-color: #1C1C1C;
+  position: sticky;
+  top: 0px;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.tabs {
+  display: inline;
+  font-size: 18px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.tabs a {
+  color:white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.tabs a:hover {
+  background-color: #CBC3E3;
+  padding: 15px;
+}
+
+/* Slideshow */
+
+.slideshow-section {
+  background-color: #CBC3E3;
+}
+
+.slideshow-container {
+ max-width: 1000px;
+ position: relative;
+ margin:auto;
+}
+
+
+.slideshow-container img {
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  max-height: 600px;
+  max-width: 700px;
+}
+
+.slides {
+  display: none;
+}
+
+.previous, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 15px;
+  
+}
+
+.previous {
+  border-radius: 15px;
+}
+
+
+.previous:hover, .next:hover {
+  background-color: rgba(255,255,255,0.9);
+}
+
+.slidesNumber {
+  text-align: center;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slidesText {
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+/* Cards */
+
+.card-container {
+display: flex;
+  justify-content: space-around;
+    gap: 40px;
+  padding: 50px
+
+}
+
+.card {
+border: 1px solid black;
+/*  width: 400px;  */
+/*   height: 300px;   */
+    text-decoration: none;
+  color: black;
+  transition: transform .3s;
+
+}
+
+#harlem:hover {
+  box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, .2);
+  transform: scale(1.15);
+
+}
+#hawaii:hover {
+  box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, .2);
+    transform: scale(1.15);
+
+}
+#oakland:hover {
+  box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, .2);
+    transform: scale(1.15);
+
+}
+.solutionimg {
+  padding: 30px;
+}
+
+.solution {
+  display: flex; /* or inline-flex */
+  justify-content: center;
+  margin:200px;
+}
+
+.harlempicture {
+width: 400px;
+  height: 250px;  
+  object-fit: cover;
+
+}
+
+.hawaiipicture {
+width: 400px;
+    height: 250px;  
+  object-fit: cover;
+
+}
+
+.oaklandpicture {
+width: 400px;
+  height: 250px;
+    object-fit: cover;
+
+}
+
+.cardinfo {
+  text-decoration: none;
+padding: 5px; 
+}
+
+.article-essay{
+  margin: 150px;
+  margin-top: 0px;
+}
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+.solutionImgClass {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Essays */
+
+#harlem-essay {
+  text-align: center;
+  margin: 0px 0px 100px 0px;
+}
+
+/* Solutions (What We Can Do / How Can You Help Page) */
+.introPurpose {
+  display: flex;
+}
+.wwcdPage {
+  width: 1000px;
+}
+.wwcdImg {
+  text-align: center;
+}
+
+.purposesand {
+  display: flex;
+  padding: 30px;
+}
+
+.solution-section {
+  background-color: #CBC3E3;
+}
+
+.about{
+  text-align: center;
+  margin: 0px 200px;
+}
+.gentrification{
+  width: 400px;
+}
+
+
+.wwcdTitle {
+  font-size: 70px;
+}
+.wwcdPage {
+  width: 60%
+}
+.meetTeam {
+  display: flex;
+  margin: 30px;
+  padding: 30px;
+}
+.purposepic {
+  width: 150px;
+}
+
+/* About Page */
+.teamHeader {
+  padding: 30px;
+}
